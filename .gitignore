@@ -1,0 +1,18 @@
+# Data files (generated at runtime)
+*.jsonl
+patterns.json
+project-contexts/
+.last-error
+.pending-ops
+.preload_done
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash|Edit|Write",
+        "command": "bash ~/.claude/skills/self-healing/scripts/capture-error.sh"
+      }
+    ],
+    "SessionStart": [
+      {
+        "command": "bash ~/.claude/skills/self-healing/scripts/inject-context.sh"
+      }
+    ]
+  }
+}
